@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101827">
+<title>My Investment Agent</title>
+<style>
+:root{color-scheme:dark;--bg:#101827;--panel:#1c293b;--line:#344258;--muted:#a9b8ca;--text:#f4f7fb}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,sans-serif}
+main{max-width:760px;margin:auto;padding:18px}
+h1{font-size:24px;margin:8px 0}
+h2{font-size:18px;margin:0 0 12px}
+p,.muted{color:var(--muted);font-size:13px;line-height:1.6}
+section{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px;margin:14px 0}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.tile{background:#26364b;border-radius:12px;padding:12px;min-width:0}
+.tile small{color:var(--muted)}
+.value{font-size:20px;font-weight:700;margin-top:7px;overflow-wrap:anywhere}
+input,button{font:inherit;border-radius:9px;padding:11px;width:100%;margin:4px 0}
+input{background:#101827;color:white;border:1px solid var(--line);min-width:0}
+button{background:#d9e8ff;color:#132238;border:0;font-weight:650;cursor:pointer}
+button.secondary{background:#344258;color:white}
+.formgrid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.item{padding:12px 0;border-bottom:1px solid var(--line);overflow-wrap:anywhere}
+.item:last-child{border:0}
+a{color:#a9d2ff;overflow-wrap:anywhere}
+.good{color:#70e0b0}.bad{color:#ff9b9b}
+small{line-height:1.6}
+</style>
+</head>
+<body>
+<main>
+<header>
+<p>PERSONAL MARKET ANALYST</p>
+<h1>モーニング投資レポート</h1>
+<p id="updated">市場データを読み込み中…</p>
+</header>
+
+<section>
+<h2>市場概況</h2>
+<div id="markets" class="grid"></div>
+<p id="status">データ取得状況を確認中…</p>
+</section>
+
+<section>
+<h2>保有資産</h2>
+<p>保有数量・取得単価はこのiPhoneのSafari内だけに保存されます。証券口座には接続しません。</p>
+<div class="grid">
+<div class="tile"><small>登録銘柄の評価額</small><div class="value" id="total">—</div></div>
+<div class="tile"><small>登録銘柄の含み損益</small><div class="value" id="pnl">—</div></div>
+</div>
+<div id="holdings"></div>
+<h2 style="margin-top:18px">銘柄を登録</h2>
+<div class="formgrid">
+<input id="ticker" placeholder="銘柄コード 例 9984.T">
+<input id="qty" type="number" min="0" step="any" placeholder="保有数量">
+<input id="cost" type="number" min="0" step="any" placeholder="平均取得単価">
+<input id="manual" type="number" min="0" step="any" placeholder="株価（未取得時のみ）">
+</div>
+<p>株価が取得できない銘柄は、最新価格を手入力してください。株価の通貨単位と取得単価の通貨単位を必ず合わせてください。</p>
+<button id="add">銘柄を登録・更新</button>
+<button class="secondary" id="export">保有データをバックアップ</button>
+<button class="secondary" id="import">バックアップを復元</button>
+<input id="file" type="file" accept=".json,application/json" hidden>
+<button class="secondary" id="clear">保有データを全削除</button>
+</section>
+
+<section>
+<h2>今日の注目ニュース</h2>
+<div id="news">ニュースを読み込み中…</div>
+</section>
+
+<section>
+<h2>分析メモ</h2>
+<div id="analysis">データ取得後に分析を表示します。</div>
+<p>このレポートは判断材料です。投資助言や将来の値動きの保証ではありません。</p>
+</section>
+
+<footer><p>株価・ニュースの取得元と更新日時を表示します。データが古い、または取得できない場合は必ず確認してください。</p></footer>
+</main>
+
+<script>
+const $=id=>document.getElementById(id);
+const KEY="my-investment-holdings-v1";
+let report=null;
+const yen=n=>new Intl.NumberFormat("ja-JP",{maximumFractionDigits:0}).format(n)+"円";
+const fmt=n=>new Intl.NumberFormat("ja-JP",{maximumFractionDigits:2}).format(n);
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const getHoldings=()=>{try{return JSON.parse(localStorage.getItem(KEY)||"[]")}catch{return []}};
+const saveHoldings=h=>localStorage.setItem(KEY,JSON.stringify(h));
+
+async function init(){
+ try{
+  const r=await fetch("./latest.json?t="+Date.now(),{cache:"no-store"});
+  if(!r.ok)throw Error("レポート未生成");
+  report=await r.json();
+  $("updated").textContent="生成日時: "+report.generated_at+" / 株価データ: "+report.market_as_of;
+  $("status").textContent="株価取得元: "+report.market_source+"。値はリアルタイムとは限りません。";
+  $("markets").innerHTML=(report.quotes||[]).map(q=>`
+   <div class="tile"><small>${esc(q.name)} (${esc(q.ticker)})</small>
+   <div class="value">${q.close==null?"取得不可":fmt(q.close)}</div>
+   <small>${q.currency==="JPY"?"円":q.currency==="USD"?"米ドル":esc(q.currency||"単位不明")}
+   ${q.change_pct==null?"":` · <span class="${q.change_pct>=0?"good":"bad"}">${q.change_pct>0?"+":""}${fmt(q.change_pct)}%</span>`}</small>
+   <p>価格日: ${esc(q.price_date||"不明")}</p></div>`).join("");
+  $("news").innerHTML=(report.news||[]).map(n=>`
+   <div class="item"><strong>${esc(n.title)}</strong><p>${esc(n.published||"日時不明")} · ${esc(n.source)}</p>
+   <a href="${esc(n.link)}" target="_blank" rel="noopener noreferrer">原文を確認 ↗</a></div>`).join("")||"ニュースは取得できませんでした。";
+  renderHoldings();
+ }catch(e){
+  $("updated").textContent="レポートを取得できません。公開設定とlatest.jsonを確認してください。";
+  $("status").textContent=String(e);
+  $("news").textContent="データ未取得";
+  renderHoldings();
+ }
+}
+function renderHoldings(){
+ const h=getHoldings();let total=0,pnl=0;
+ $("holdings").innerHTML=h.map((x,i)=>{
+  const q=(report?.quotes||[]).find(q=>q.ticker.toUpperCase()===x.ticker.toUpperCase());
+  const price=q?.close??x.manualPrice;
+  const value=price*x.qty, gain=(price-x.cost)*x.qty;
+  total+=value;pnl+=gain;
+  return `<div class="item"><strong>${esc(x.ticker)}</strong>
+  <p>数量 ${fmt(x.qty)} · 取得単価 ${fmt(x.cost)} · 現在値 ${price==null?"未取得":fmt(price)}</p>
+  <p>評価額 ${price==null?"—":fmt(value)} · 損益 <span class="${gain>=0?"good":"bad"}">${price==null?"—":fmt(gain)}</span></p>
+  <button class="secondary" onclick="removeHolding(${i})">この銘柄を削除</button></div>`;
+ }).join("")||"<p>銘柄はまだ登録されていません。</p>";
+ $("total").textContent=yen(total);
+ $("pnl").textContent=(pnl>0?"+":"")+yen(pnl);
+ $("pnl").className="value "+(pnl>=0?"good":"bad");
+ const stale=report?.generated_at?Date.now()-Date.parse(report.generated_at.replace(" ","T")+"+09:00")>36*3600*1000:true;
+ $("analysis").innerHTML=h.length?`
+ <p>登録銘柄数: ${h.length}。合計損益: ${yen(pnl)}。</p>
+ <p>${stale?"注意：レポートが古い可能性があります。":"レポートの生成時刻を確認してください。"}</p>
+ <p>評価額は取得できた株価に基づく概算です。為替換算、手数料、税金、投資信託の基準価額は別途確認してください。</p>`
+ :"保有銘柄を登録すると、評価額と損益が表示されます。";
+}
+window.removeHolding=i=>{const h=getHoldings();h.splice(i,1);saveHoldings(h);renderHoldings()};
+$("add").onclick=()=>{
+ const ticker=$("ticker").value.trim().toUpperCase(),qty=Number($("qty").value),cost=Number($("cost").value),manual=$("manual").value===""?null:Number($("manual").value);
+ if(!ticker||!Number.isFinite(qty)||qty<=0||!Number.isFinite(cost)||cost<0){alert("銘柄コード・数量・取得単価を確認してください");return}
+ const h=getHoldings(),item={ticker,qty,cost,manualPrice:manual};
+ const i=h.findIndex(x=>x.ticker===ticker);
+ if(i>=0)h[i]=item;else h.push(item);
+ saveHoldings(h);renderHoldings();
+ $("ticker").value="";$("qty").value="";$("cost").value="";$("manual").value="";
+};
+$("export").onclick=()=>{
+ const blob=new Blob([JSON.stringify(getHoldings(),null,2)],{type:"application/json"});
+ const a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="holdings-backup.json";a.click();URL.revokeObjectURL(a.href);
+};
+$("import").onclick=()=>$("file").click();
+$("file").onchange=async e=>{
+ try{const h=JSON.parse(await e.target.files[0].text());if(!Array.isArray(h))throw Error();
+ if(!confirm("現在の登録銘柄をバックアップで置き換えますか？"))return;
+ saveHoldings(h);renderHoldings();
+ }catch{alert("JSONバックアップを読み込めませんでした")}
+};
+$("clear").onclick=()=>{if(confirm("このiPhoneに保存した保有データをすべて削除しますか？")){localStorage.removeItem(KEY);renderHoldings()}};
+init();
+</script>
+</body>
+</html>
