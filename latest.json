@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26 07:39:24",
+  "generated_at": "2026-10-27 07:45:38",
   "timezone": "Asia/Tokyo",
   "market_as_of": "各銘柄のprice_dateを参照",
   "market_source": "Yahoo Finance via yfinance（非公式・遅延の可能性あり）",
@@ -19,40 +19,40 @@
       "ticker": "^GSPC",
       "name": "S&P 500",
       "currency": "USD",
-      "close": 7623.6802,
-      "previous_close": 7663.4302,
-      "change_pct": -0.519,
-      "price_date": "2026-10-23",
+      "close": 7676.77,
+      "previous_close": 7623.6802,
+      "change_pct": 0.696,
+      "price_date": "2026-10-26",
       "source": "Yahoo Finance via yfinance"
     },
     {
       "ticker": "^IXIC",
       "name": "NASDAQ総合",
       "currency": "USD",
-      "close": 25955.3398,
-      "previous_close": 26008.8594,
-      "change_pct": -0.206,
-      "price_date": "2026-10-23",
+      "close": 26169.3809,
+      "previous_close": 25955.3398,
+      "change_pct": 0.825,
+      "price_date": "2026-10-26",
       "source": "Yahoo Finance via yfinance"
     },
     {
       "ticker": "JPY=X",
       "name": "米ドル/円",
       "currency": "JPY",
-      "close": 156.873,
+      "close": 157.494,
       "previous_close": 156.494,
-      "change_pct": 0.242,
-      "price_date": "2026-10-25",
+      "change_pct": 0.639,
+      "price_date": "2026-10-26",
       "source": "Yahoo Finance via yfinance"
     },
     {
       "ticker": "9984.T",
       "name": "ソフトバンクグループ",
       "currency": "JPY",
-      "close": 4276.0,
-      "previous_close": 4305.0,
-      "change_pct": -0.674,
-      "price_date": "2026-10-23",
+      "close": 4263.0,
+      "previous_close": 4276.0,
+      "change_pct": -0.304,
+      "price_date": "2026-10-26",
       "source": "Yahoo Finance via yfinance"
     },
     {
@@ -60,127 +60,103 @@
       "name": "ソフトバンク",
       "currency": "JPY",
       "close": 237.4,
-      "previous_close": 246.6,
-      "change_pct": -3.731,
-      "price_date": "2026-10-23",
+      "previous_close": 237.4,
+      "change_pct": 0.0,
+      "price_date": "2026-10-26",
       "source": "Yahoo Finance via yfinance"
     },
     {
       "ticker": "2914.T",
       "name": "JT",
       "currency": "JPY",
-      "close": 7539.0,
-      "previous_close": 7481.0,
-      "change_pct": 0.775,
-      "price_date": "2026-10-23",
+      "close": 7599.0,
+      "previous_close": 7539.0,
+      "change_pct": 0.796,
+      "price_date": "2026-10-26",
       "source": "Yahoo Finance via yfinance"
     },
     {
       "ticker": "8136.T",
       "name": "サンリオ",
       "currency": "JPY",
-      "close": 1303.0,
-      "previous_close": 1326.5,
-      "change_pct": -1.772,
-      "price_date": "2026-10-23",
+      "close": 1291.5,
+      "previous_close": 1303.0,
+      "change_pct": -0.883,
+      "price_date": "2026-10-26",
       "source": "Yahoo Finance via yfinance"
     },
     {
       "ticker": "9023.T",
       "name": "東京メトロ",
       "currency": "JPY",
-      "close": 1471.5,
-      "previous_close": 1466.0,
-      "change_pct": 0.375,
-      "price_date": "2026-10-23",
+      "close": 1491.0,
+      "previous_close": 1471.5,
+      "change_pct": 1.325,
+      "price_date": "2026-10-26",
       "source": "Yahoo Finance via yfinance"
     },
     {
       "ticker": "2558.T",
       "name": "S&P500 ETF参考",
       "currency": "JPY",
-      "close": 3460.0,
-      "previous_close": 3482.0,
-      "change_pct": -0.632,
-      "price_date": "2026-10-23",
+      "close": 3450.0,
+      "previous_close": 3460.0,
+      "change_pct": -0.289,
+      "price_date": "2026-10-26",
       "source": "Yahoo Finance via yfinance"
     },
     {
       "ticker": "1545.T",
       "name": "NASDAQ100 ETF参考",
       "currency": "JPY",
-      "close": 230.2,
-      "previous_close": 232.6,
-      "change_pct": -1.032,
-      "price_date": "2026-10-23",
+      "close": 228.8,
+      "previous_close": 230.2,
+      "change_pct": -0.608,
+      "price_date": "2026-10-26",
       "source": "Yahoo Finance via yfinance"
     }
   ],
   "news": [
     {
-      "title": "日経平均、年末に7万5000円 中間決算で自社株買いに期待 - 日本経済新聞",
+      "title": "日経平均、年末に7万5000円 中間決算で自社株買いに期待 - 日経ヴェリタス - 日本経済新聞",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZQlN1bFVidlk0UDdJbmZfQndxQkpJVVdLU1RxNDJSUTFsM1lrVGV6QnpiV2VWNTVpeEVmX2hrOVJyemkwT05CRmlnemptR2twZXo5MjhXNTB3b0NMcGNTRGhzUS1vTHBsejY3aENEWDJRM2dfd1dpMC1PTlpVZw?oc=5",
       "published": "Sun, 25 Oct 2026 20:00:00 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "日経平均株価の指数情報・推移 - Yahoo!ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SRDk1ZENIQUIzSUZyMHZRNHpCR2xlcTI5UTJRYXVoMDBrM3BmNndBT29vV0dDZWdQazZHb2tURGZNYy1OMU93R0kyUUZUT3VmU2VhbA?oc=5",
-      "published": "Sun, 25 Oct 2026 19:12:18 GMT",
+      "title": "日経平均は177円安、今週は内外金融イベントや企業決算に関心(フィスコ) - Yahoo!ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdFRXeTlxVFh6NUxIaUdkNC1aclh1RmlJM1VJWXJoYzRSNGZURDRrWXpkM010NGZ6a3ZJX2wxSFdxY3kySnctWXZmMW1ybDNSRDFieEdlWFZhWW9xTW5LNVVwcVlSVXcyV0xMRThaYlhZb1JOaXlybXFhYVNlVVlweDJIOEpaZGs?oc=5",
+      "published": "Mon, 26 Oct 2026 05:51:47 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "日本株の転換点は10月末から11月上旬か ハイテク決算・日米MPM・米中間選挙がカタリスト 野村證券ストラテジストが解説 - 野村證券",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83LTJRUHM1TzAzT3VVNEp0MGFwRV9oTVR0bkpyV2RUNHBJMGJoMmcxRDdjNGxGOVlKaDJqRFVwVHV2R1JQS3c2RWNNMTdNamhKYzVXTmhjTzNiZkN4MXlF?oc=5",
-      "published": "Fri, 23 Oct 2026 07:00:00 GMT",
+      "title": "日経平均、2週連続の急落で下げ幅6,300円超…半導体企業決算などイベント集中で反発は期待できる？【アナリストが分析】 - トウシル",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kT3ktV1dJUmVrT21YX2RwUnhvdXhIeDg2azBRY1N5enM1Q2RJMjdiLXFlX1FpSk1uZmczS0xJekt0VXNDNkZXT01UbWlEQVQ2ZlZVS0hRUkJQdw?oc=5",
+      "published": "Mon, 26 Oct 2026 03:00:00 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "来週の日経平均見通し（10/26～10/30）｜6万円割れはあるか？FOMC・日銀会合と米ハイパースケーラー決算に注目 2026年10月23日 - 外為どっとコム",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8yQjVoRlVfbm5FeWpOQjlvdFVPR3gzaVotMjJDNGJGZ2xqOUJwSjhWRWcydjdjd3lZeDVGT25EWUxvWENZay1QM3hUano0cWZGaWZXMXViaUxXOTJodVlPMXZsRQ?oc=5",
-      "published": "Fri, 23 Oct 2026 08:37:27 GMT",
+      "title": "明日の株式相場に向けて＝中銀ウィーク＆刮目の企業決算で正念場 - 株探",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAtd2FqT0V6WU1BNDM2YWxxTkhva1BtRjBua0dMVW5pc3RQWm1HS2ZIbGozVEFpTzlUWnUyOWlzUmNRRU5VRU4zakhCVFFPeUFZVVJZZ0tjN1VaWEJIc296bg?oc=5",
+      "published": "Mon, 26 Oct 2026 08:30:00 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
+      "title": "（まとめ）日経平均は503円安の62,189円で3日続落　今週は主力銘柄の決算に注目 - マネクリ",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fQVhYeTZGODFDNHhGbW9KY2FsaFl4ZDhPeVlXNWdjQkVmMzQyNnhCNGdqMUMwc1NkQVN3QmdqUWlMNHBpbnZlOVItUktXcHBjTU5CZNIBV0FVX3lxTE1KMndIVDUzcGJhMjlhV005Vy1xZkNXMldDckRrV3QydWFSU29jNl91VTFvTk5vSFVKOHFUdWhBRThseDJWYnNDZ0Vad0Vqd2FuV2VwbmJtVQ?oc=5",
+      "published": "Mon, 26 Oct 2026 07:18:00 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
       "title": "来週（10/26～30）の日経平均株価の予想レンジは、6万～6万5000円！ キオクシアやアドバンテストなどAI･半導体株の決算と、日米の金融政策の動向に注目！ - ダイヤモンド・オンライン",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fb0F0VzVWZ0tTU0luR2NCeGxYMGVxdWFFcHBQcGpZX1k2Mm1zQnF3UklVTER4UTBjbXZmTXR4OFJiNnY2NllwWjFjQmRHa0d3UkdR?oc=5",
-      "published": "Fri, 23 Oct 2026 07:00:00 GMT",
+      "published": "Fri, 23 Oct 2026 10:49:45 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "AIの信用不安は10月末まで､来週の決算発表で相場は落ち着こう - 四季報オンライン",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5FdV9nb0Y2SkVWV1VOcC1rNEpXUlNmMGtFM0hpeXZ5WG53VmlUaFNVNk5GdHFEYi0zSDRQanFnRE0zT0Q4WkN1Q3BxOHNYeENtbERBeENRaw?oc=5",
-      "published": "Fri, 23 Oct 2026 09:00:00 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
-      "title": "【日本株】AIで日経平均を予想したらどうなった？『AI予想との付き合い方』実践編 - マネクリ",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xTEFoYmkzNlZNYzQzaVBFSVlPZ1plV2RSUFR2Y0ttdlhDYTRqTkFiNkdWckF4d25UTDFRYzM5em5NOGN1SDI2VDdZVUMxWEtSZllFTtIBV0FVX3lxTFAtdXMtSHZBV2lHX2xZNWphNVU3bW5pUDcwWW9IbnRsWUEwOGZrRXF2STZtTWt4T1JVU0RoN0xVanJyMGZyb2RPUHBNMDg4bVU4U1h5dkFhWQ?oc=5",
-      "published": "Fri, 23 Oct 2026 07:35:00 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
-      "title": "キオクシア、イビデンほか、大幅増益・株価上昇に期待したい主力11銘柄 - SBI証券",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA5TmRNQkhWTVBLeWhwTGFCcHJRbjgtZWtoV01aRy1RQ19nY0NfM0R2dmNyQUt2c0xQSFBFOUE3TWluVEhLeE1wQU1XMDdwQVdadEQzZmpkeUhTbFhQcGt5U2oyZE05Uk43bHlnUlNMNS01alFrakxhU2d0ZkpYcms?oc=5",
-      "published": "Fri, 23 Oct 2026 00:00:00 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
-      "title": "２３日の株式相場見通し＝続落、ＡＩ・半導体関連株への警戒感が続く - 株探",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GbER4MHhtdGw3Z2pocWE4SWU1SUM5ZEVPMmwyQWhueHdQUnhLSF9ub1JwYkJVRkI5R3lpaWVXVFlWeWwyTEdyM0hnZXZMRkNrUGN4QlZjd3hoN0JwSWJuZw?oc=5",
-      "published": "Thu, 22 Oct 2026 23:00:00 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
-      "title": "2026年末の日本株見通しを日経平均株価60,000円に上方修正 総選挙結果と決算を反映 野村證券ストラテジストが解説 - 野村證券",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oSWU3ZUtYb2J2YW9yMmlwdDNBbFh2RG1jUldFU0FiSW9EYmhxZEdQeGxFS3gwTDZIWFo4THEzSnpRZVZpWlk1ZlpEN21HNFRuMXRubkhGYjJqYzhka0lv?oc=5",
-      "published": "Fri, 23 Oct 2026 07:00:00 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
-      "title": "株価指数先物 【週間展望】―自律反発狙いの買いを意識(株探ニュース) - Yahoo!ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRERDRDVPRWY0b2JQYWVMdjRGZ1psSTIyUmxzbTRnMzlTTjdCMGVSRklkQ0FyUk82NTRwTEdNNlM2U1pUU0VuTEVpcy13LUNhUHdZVV80bVBUcjE1aWRwd3dHaEJIQ0lnSkQ3V0NDemNyU2tsVzliMDhvaWxYdVVBTmd5dUVKd1k?oc=5",
-      "published": "Sun, 25 Oct 2026 08:00:36 GMT",
+      "title": "日本株の転換点は10月末から11月上旬か ハイテク決算・日米MPM・米中間選挙がカタリスト 野村證券ストラテジストが解説 - 野村證券",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83LTJRUHM1TzAzT3VVNEp0MGFwRV9oTVR0bkpyV2RUNHBJMGJoMmcxRDdjNGxGOVlKaDJqRFVwVHV2R1JQS3c2RWNNMTdNamhKYzVXTmhjTzNiZkN4MXlF?oc=5",
+      "published": "Thu, 15 Oct 2026 07:00:00 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
@@ -190,21 +166,45 @@
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "積水ハウス(株)【1928】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBCbEtBd25jQV85Tlg5bTRHemdLbWZwRnF6T3U4NEl0S1B6MFozTUZRdlV1ei1PZjBHNHF2U2h3YWtiQzVJaVZQcjdKbHZqd1dLQUE?oc=5",
-      "published": "Fri, 23 Oct 2026 07:00:00 GMT",
+      "title": "［動画］【テクニカル分析】今週の日本株 2週続けて急落した日経平均、イベント目白押しで底打ち反発はあるか？ - トウシル",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QTmJEV3VWS04zODRjeXhycy1EajFWMUp3NWwzY2xGV25DNGhWblliQXZ3TDRDWEQ1RHhxNkRyd1hGWjZFYV8xVFVrLV80OUFqeC00ZTY2Y08tUQ?oc=5",
+      "published": "Mon, 26 Oct 2026 05:35:00 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "AI関連株なぜ「急落」した？ 5つの背景と日本株見通し 野村證券・池田雄之輔 - 野村證券",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUNF9KQXUyOUlhMUFhQ3g0VnJGNzNzZEhnYU95bWhrQjhSalNER2c4cXBiOWQxMEs4Z2s0SEJXM1JYWWhQd1k1VEdrV3RhR0xSUVNlbWZXSEREcWx1OG80?oc=5",
-      "published": "Tue, 20 Oct 2026 09:00:00 GMT",
+      "title": "ファナックやKOA、川崎汽船が上方修正！ 半導体装置は売り/日経平均続落【今日の注目株＆日本株市場見通し】「デイリーZAi」10月26日号（ダイヤモンド・ザイ） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBfNG5kdndpajFrMmlKMF85aGlEMmFmWGhnWEVGaVBQWGtYWngza29GUVdMdU5nejdJN3VGbkx2em10d2NtU3BnX25MWUF0cTNlLWhhNFdTeEdlVFM5bTFpMTBOQThteUY0aW9jMW1GQlh1MlRhMFhQNEtnekJYNmc?oc=5",
+      "published": "Mon, 26 Oct 2026 11:10:26 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "日経平均は1660円安、米経済指標や企業決算に関心(フィスコ) - Yahoo!ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUkRud1pHSjd5ZW5HV2RUeERSbWJ4eEtLSXBYR0UtaUFzOVB5eUFWX3k4TFpwT0l4OEREcENWSW5FbG5GTGZidzc1X3Z0YVBhRW44ZThMQTViaU1vbmJnbXFsQXZKalVud1A3UkxHVzhCWjFaQkk1RWd5ajliN1dKZVY5T3pFNU0?oc=5",
-      "published": "Thu, 22 Oct 2026 05:53:10 GMT",
+      "title": "日経平均の今週の予想レンジは6万1500円-6万4500円 - マネクリ",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE85dFlJaHgtUF9vbG94TGZvaDZrREF2bHBXV1VaTXY4MzJNUDRSTUUzZXBwTk9qRnRBcjh6aTRTd20wQjlWckVnSkxrdU9OXzRxd3AwT9IBV0FVX3lxTE1OWEp3WktLYlBEQk5EN055WUJieEJqRDF1eUswQmJxeDdTbTBrbnZmczBXWEdoczEzV0JYWXNldUJpM05ONmp1WG92Umh1eTZ2NU82cVNtSQ?oc=5",
+      "published": "Mon, 26 Oct 2026 00:31:00 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
+      "title": "日経平均、26年末に7万円超え 中間決算で上方修正期待 - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9kVERWcE1qM2Z4QUJqcWVneEtfSnpJUmdGSzltU19XNWtGWkFYRGF5bzgxOWFHSnFrUGxlY3U0dDN3TGtiS0RtR2tLWmdSRS01R3BFUUx6WGxjY09ZR0xHbHYyUnpiR3hkcTU3UUljYnhpc2oxY05vQnZMa29uUQ?oc=5",
+      "published": "Mon, 05 Oct 2026 07:00:00 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
+      "title": "iFreeETF 日経225(年1回決算型)【1320】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SNXNRbGxPTlMzc1dPcUs1dGVnd0M5NUJjWWZtYmhPWW5wekI4dHJyRWNKdjdFLXlOZWlKVHYwcEo1a09PeHpvSHdrczR0VzUyUWc?oc=5",
+      "published": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
+      "title": "前週比9.4%安…好決算のメタ・プラットフォームズがAI株の「足を引っ張る」ワケ。米中間選挙の通過までは様子見？ - トウシル",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2MWZNalhqS0Zva0hyVTZqcndRQ1RhQVhWeV9DVU1TcllJVlh1aXdfeWFwbHBRUW10ajM3eEpyUDRHSXA3OVZWeDkwdXJfNm1ENnBBcHB5aTlWZw?oc=5",
+      "published": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
+      "title": "決算:上方修正ラッシュの日本株、実はまだ保守的 「下期据え置き」に妙味 - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9TNjhXQUJTWE1wZmtYT2Z2ZzZVMEhSNnJvNWRNTXVQTDlSVVo3T2FUNjE5R25YaUJSWURtVXQzc01hY2tId3pyTUEzcUlraVlFOFJWcTV6ME1ydEZQR3I0VHRMdmNlZlhQQjhISg?oc=5",
+      "published": "Fri, 14 Aug 2026 07:00:00 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     }
   ],
