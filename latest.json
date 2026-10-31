@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31 07:48:07",
+  "generated_at": "2026-11-01 07:44:53",
   "timezone": "Asia/Tokyo",
   "market_as_of": "各銘柄のprice_dateを参照",
   "market_source": "Yahoo Finance via yfinance（非公式・遅延の可能性あり）",
@@ -9,10 +9,10 @@
       "ticker": "^N225",
       "name": "日経平均",
       "currency": "JPY",
-      "close": 64659.4688,
-      "previous_close": 63954.1914,
-      "change_pct": 1.103,
-      "price_date": "2026-10-29",
+      "close": 63290.1094,
+      "previous_close": 64659.4688,
+      "change_pct": -2.118,
+      "price_date": "2026-10-30",
       "source": "Yahoo Finance via yfinance"
     },
     {
@@ -29,7 +29,7 @@
       "ticker": "^IXIC",
       "name": "NASDAQ総合",
       "currency": "USD",
-      "close": 25436.998,
+      "close": 25437.0,
       "previous_close": 26184.7207,
       "change_pct": -2.856,
       "price_date": "2026-10-30",
@@ -39,9 +39,9 @@
       "ticker": "JPY=X",
       "name": "米ドル/円",
       "currency": "JPY",
-      "close": 157.519,
+      "close": 157.804,
       "previous_close": 157.833,
-      "change_pct": -0.199,
+      "change_pct": -0.018,
       "price_date": "2026-10-30",
       "source": "Yahoo Finance via yfinance"
     },
@@ -120,7 +120,13 @@
     {
       "title": "来週（11/2〜11/6）の日経平均株価の予想レンジは6万1000～6万5000円！ 米・中間選挙や雇用統計、アップル決算、さらに金融政策や金利の動向に注目！ - ダイヤモンド・オンライン",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE45YVR6OUVDMVhVZUJiMEJ1RGYxaWFuVzJCbWdMNEEzdHNwa2ZmSmNEV3I4cHp1RkliYnVrbW5BQmhTN1RPUHNreFdmQWE2aDV0M0sw?oc=5",
-      "published": "Fri, 30 Oct 2026 22:21:35 GMT",
+      "published": "Sat, 31 Oct 2026 20:07:08 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
+      "title": "日経平均ベア2倍上場投信【1360】：株価・株式情報（夜間PTS含む） - Yahoo!ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBqTENmZUFaNFdfSjNYNDdHREtlZU1HdGpsOXNNU3RIR0MxSlRxLTdrXzdmUlBiQ0l6U3BxWk00eDhncVVwR3BTV1A5TzlJSzExV2c?oc=5",
+      "published": "Sat, 31 Oct 2026 17:02:49 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
@@ -130,9 +136,9 @@
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "JTが反落 通期業績上方修正でも増配なく（30日の株式市場） - 日本経済新聞",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4bFRQWTRRbkt1d1hnNDBzdTdfUXJ2N0dCRkpXREJYZmlDWDRjNFJtYWNFMTRzVjdqdTZCeUlZa28tNjVWNTBVRVpnVjdXMzJoMk9iY2pfdXVXSXgyOU1ZV1M5SHBqbnM2aWtiVA?oc=5",
-      "published": "Fri, 30 Oct 2026 07:30:00 GMT",
+      "title": "日経平均、年末に7万5000円 中間決算で自社株買いに期待 - 日経ヴェリタス - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZQlN1bFVidlk0UDdJbmZfQndxQkpJVVdLU1RxNDJSUTFsM1lrVGV6QnpiV2VWNTVpeEVmX2hrOVJyemkwT05CRmlnemptR2twZXo5MjhXNTB3b0NMcGNTRGhzUS1vTHBsejY3aENEWDJRM2dfd1dpMC1PTlpVZw?oc=5",
+      "published": "Sun, 25 Oct 2026 20:00:00 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
@@ -142,45 +148,21 @@
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "好決算のOLCやコナミGが大幅高！ 富士通はストップ安/日経平均急反落【今日の注目株＆日本株市場見通し】「デイリーZAi」10月30日号（ダイヤモンド・ザイ） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1Od2ZZYWFDMEFSbTFDdzBrN2NuSEgxS0tQZ0tqNGUyV2o0S21Lb0tyZ0dsbmxRZ2VsRVBRQm9TeVZ0WDBaLWxDSjRBWWhtQW54V0t1M3N0NmtUQWo5bTVGWEVPYmxwY1YtVVVOeGVGSHVHTEtqaVZYSXkyZEotN0k?oc=5",
-      "published": "Fri, 30 Oct 2026 11:10:26 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
       "title": "【日本株】日本株の決算好感度は42.5％ 「50％回復」が相場好転のカギ？ - マネクリ",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB4TEp5WE1WMFZNUm5PVElhdFhCNm1GcTUxbHJfZjh4ZG5tYUl2WjlzLTc2aTVYTE1XSEhXRWx2bWZVRU83UzF0LWFSeVVFRlRBdGI1Y9IBV0FVX3lxTE5sNHhMTmxEdUJZTjlZaktCQjRVUWpoVXI0WVMxUWotWG5Qd2llVTBKNThDTHRUbmpHTkFKUklLOENjVi1Wc2ZxRFpudlBSbl8wMEs5Q19KYw?oc=5",
       "published": "Thu, 29 Oct 2026 06:30:00 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "30日の日経平均は大幅下落､AI･半導体関連株に売り - 四季報オンライン",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE12ZnVxWDdrUzNFaE9EOXFVejh4dXRMaUl5ZktnNmdxektVODFWOUVuUlZMVlJ5VmR6V0tNd09HMEhNT1FwSV9weDVsT0QwMzdtVWdIYmZmYw?oc=5",
-      "published": "Fri, 30 Oct 2026 07:20:00 GMT",
+      "title": "決算シーズンに押さえておきたい企業決算の見方、増収増益だけでは分からない株価の動き - マネーフォワード",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBFX2N6VjF1NDBRNDFYWnBDSFotOTlUVWNFWWRHT2lUM1JYOEdQanJRV09JeEFTMktWS3c1VEZmdi1FRGdlV3o0VHZPNHVXWnVpRDh5T2xtX0pmdWRzcHhFbkRhaw?oc=5",
+      "published": "Sat, 31 Oct 2026 05:24:45 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "【日本株週間展望】日経平均6万円接近も、AI投資や米中間選挙警戒 - TBS NEWS DIG",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9sc2w0NUxaZE9zSDJ5WDZaWHlhempwa1lTUkFIb0s3MjA4UEQtNzZlVTFOTV8tRm5SWnJ6RDhqOHYwZFcxellQSXVOcFVRVXg1bXhXODlrTldXbFliU2xfWngzak5NbEJwOTNXXzR6U2VBYThT?oc=5",
-      "published": "Fri, 30 Oct 2026 08:53:00 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
-      "title": "AI投資への懐疑で半導体株安、日経平均は一時3%下落 日銀は1.25%で据え置き - BigGo ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE56RkRrcGFYUldtY2tHRXRJN3JuRFMwSTNCeGtZMnFSSU5Dd1Z1MHJRSFYyOWJCYUtoeUhsUUYtV3dxcTNoNHhGbHZISmpMNEZRMTN6TnUwVGM3ODk4MlA3cngxR25ScTc1dGhBYkFUQm9HQ3Iy?oc=5",
-      "published": "Fri, 30 Oct 2026 18:15:00 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
-      "title": "日経平均、2週連続の急落で下げ幅6,300円超…半導体企業決算などイベント集中で反発は期待できる？【アナリストが分析】 - トウシル",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kT3ktV1dJUmVrT21YX2RwUnhvdXhIeDg2azBRY1N5enM1Q2RJMjdiLXFlX1FpSk1uZmczS0xJekt0VXNDNkZXT01UbWlEQVQ2ZlZVS0hRUkJQdw?oc=5",
-      "published": "Mon, 26 Oct 2026 03:00:00 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
-      "title": "日経平均、年末に7万5000円 中間決算で自社株買いに期待 - 日経ヴェリタス - 日本経済新聞",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZQlN1bFVidlk0UDdJbmZfQndxQkpJVVdLU1RxNDJSUTFsM1lrVGV6QnpiV2VWNTVpeEVmX2hrOVJyemkwT05CRmlnemptR2twZXo5MjhXNTB3b0NMcGNTRGhzUS1vTHBsejY3aENEWDJRM2dfd1dpMC1PTlpVZw?oc=5",
-      "published": "Sun, 25 Oct 2026 20:00:00 GMT",
+      "title": "半導体だけではない？11月に好決算発表・株価上昇期待の主力11銘柄 - SBI証券",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1rcjB5U0ExeEFGVWVyWGxaRzl0NjFWTXItdUI0VFVFMW40Z0p5LWZYV0hBQ1V1enVoNTZoVXV2MFRsQmtMSlY0UzdaUHB6VE9Icm9UVWhjN1p0NE1ERWNRWFVsRmJvemVQSDFfNC1CRUM2S2VKSnZUdmY0aEMxUVk?oc=5",
+      "published": "Fri, 30 Oct 2026 06:58:41 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
@@ -190,21 +172,39 @@
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "【日本市況】日経平均900円安、米ハイテク決算失望－債券先物が上昇 - TBS NEWS DIG",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA3YXp5WS1MUjI5SV8tQTMxbzJNWmZ4eFV3S3FKejk5R09qRzVLcmZRT1BSTGJYV0R6NFZtRU1zSjVRN1ZYakRacnE4T0NjUy1BaFo5TkhocDF3ZlQwcTY1RkRTUHpaQ3Y1UllpeTdjdUd0N2dC?oc=5",
-      "published": "Fri, 30 Oct 2026 02:51:00 GMT",
+      "title": "日経平均株価、米アルファベット株の急落が重荷（先読み株式相場） - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GcWQ5NTNfRUlBUUczVkNudGVudTdHcXA0Y0VvR2g0R2I2SHptMHNuZWx0dlktUjd0Tjl1NlMyOFNINDVReVBmMVdWX2UtRlpKRHRCY2M1Q0c2cEdjcnVWdk5Ha0MtVEU0R2o3UQ?oc=5",
+      "published": "Wed, 28 Oct 2026 22:38:35 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "日経平均は1497円安、企業決算や米経済指標に関心(フィスコ) - Yahoo!ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQclJDTXF5YVVvQ2c0ZW9sN0xzd0ZlOTBYUlVfTVlfOXZDel8zSWoyWmRjREwtaFVXYTNleHluaVlOZ3NsaGdicXpCUTdIWmJvU3h6d0g1TVhzcHJjNU5aUVBhUDdFa3VDcldhM3FHcUlMSGFmZGJHNjRfU3ZvZjRPeDJzdHFWelU?oc=5",
-      "published": "Fri, 30 Oct 2026 05:52:56 GMT",
+      "title": "日経平均は１７７円高と３日続伸、韓国サムスン決算受け一時下げ転換も＝２９日前引け(ウエルスアドバイザー) - Yahoo!ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYmtubnBUV3V5c3doWDZfYUtxYVAyMmUyZXFFbmM1MGQwREZGTGVPSVdBbjdkWEd5YUZQejlRbGtjRzlJN2dHZFFaQXJMQ1BsMnBpdWFSRVlJdjlBZ0tja2tQdFFSQk1fZ19NYmxhTEFjdHk1c0lCeXlQaXE2Q0gtWmJ0Y0pSLW8?oc=5",
+      "published": "Thu, 29 Oct 2026 03:02:02 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
+      "title": "決算シーズンに押さえておきたい企業決算の見方、増収増益だけでは分からない株価の動き - マネーフォワード",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE40WmczRUVJTkdTX1J5ekNsS28yTVg0cGtfSU9ZMGdqV2o3ZV92QVV4R1oxWlNxZXVWYXE1a0JGOVU4VTFsUXRmYzYxVUJXQ3E4ZE1WRlBSV1k?oc=5",
+      "published": "Fri, 30 Oct 2026 23:37:18 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
+      "title": "30日寄り付き直後の日本株は反落､米ハイテク決算失望 - 四季報オンライン",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE94YktDYktHT190b3V1TVNSLVpiczdMVWpTbk5LelYwclF1aW5OUjZBQkhfVFpMa1NSZG5IVzVqS25EOWFTeFBCNjFocWFqUTA2dnZQc1JlMA?oc=5",
+      "published": "Fri, 30 Oct 2026 01:03:00 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
       "title": "キオクシアHD株価が大幅反落 米インテル決算などで投資家心理悪化 - 日本経済新聞",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5zZk1KS3FlTHhZd3VkV1piSXVkRmdlOVpaLXMzWHhkOFMydEhWTG81WnBIOGRDLVh1V3RQWEEyZml5djRRcjF3WDE4UWJsWGRWU3RLM0FlUEdHS2hrbTVsNnFTVUFlQ0JHTldXaQ?oc=5",
       "published": "Fri, 30 Oct 2026 02:05:38 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
+      "title": "午前の日経平均は小幅続伸、アドバンテスト決算を好感 韓国株安は重し(ロイター) - Yahoo!ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPV29UaldBRi1CT3UybTRSN2VxbUE2WVFwdGF1Z3NFU09waGFLeXNxc1pYOFAtSXI0aHVkeTU2U3NyRUYzS1preGloM1Niamppa3lSeE9QcHdXa1FPbUhMRGR6R0oyUmw2RkNtQ2ZsYkJuTWswdm1QdmRCMHBxSENtbmtudTdDX1E?oc=5",
+      "published": "Thu, 29 Oct 2026 03:12:48 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     }
   ],
