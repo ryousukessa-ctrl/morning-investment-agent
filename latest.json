@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08 07:46:59",
+  "generated_at": "2026-11-09 07:47:36",
   "timezone": "Asia/Tokyo",
   "market_as_of": "各銘柄のprice_dateを参照",
   "market_source": "Yahoo Finance via yfinance（非公式・遅延の可能性あり）",
@@ -39,9 +39,9 @@
       "ticker": "JPY=X",
       "name": "米ドル/円",
       "currency": "JPY",
-      "close": 158.425,
+      "close": 158.379,
       "previous_close": 157.498,
-      "change_pct": 0.589,
+      "change_pct": 0.559,
       "price_date": "2026-11-08",
       "source": "Yahoo Finance via yfinance"
     },
@@ -130,6 +130,12 @@
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
+      "title": "日経平均は弱気相場入り？日本株は信用買い残高水準｜大橋ひろこ - note",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1kNmpjYmh2dnBlcUg5UnZxdnNQRTg5V3N0VEU4VTlGazZpVWxpRTZYWjUzUXN5QU5FNFFkQzJ4LTY5QXFOa2UzUHZaTVFodWpRSXdSV1JWTnNqQQ?oc=5",
+      "published": "Sun, 08 Nov 2026 18:33:21 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
       "title": "日経平均株価一時4,000円超下落 目先の下値メドと今後の展開は 野村證券ストラテジストが解説 - 野村證券",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9HY19Lamk3N1Q4Um9XWjJZUGxLQXNjV2pVU2VzLWdCRGxnWkNhVkVkOTBTbE1SYWlvMTROMUdpTFpIUkZ4TERHR3llUjM4VTZGaGJGdEtxTVdzVGxNek9r?oc=5",
       "published": "Fri, 06 Nov 2026 07:00:00 GMT",
@@ -139,12 +145,6 @@
       "title": "日経平均、年末に7万5000円 中間決算で自社株買いに期待 - 日経ヴェリタス - 日本経済新聞",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZQlN1bFVidlk0UDdJbmZfQndxQkpJVVdLU1RxNDJSUTFsM1lrVGV6QnpiV2VWNTVpeEVmX2hrOVJyemkwT05CRmlnemptR2twZXo5MjhXNTB3b0NMcGNTRGhzUS1vTHBsejY3aENEWDJRM2dfd1dpMC1PTlpVZw?oc=5",
       "published": "Mon, 26 Oct 2026 07:00:00 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
-      "title": "ソフトバンクG株価7カ月ぶり安値 アーム業績見通しに「物足りなさ」 - 日本経済新聞",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91MHZxejduWUVoajJ4X1ZhQThWSk92X3JNQmNxQllBdjRuTWRhakNSRWtFalZrVVprYVlrWXNZZEd5d004SlZhc05hUXF4RXBOV1MzZTZzRXptV2tkZUw2ZFhrMHVGYjg2R25nQQ?oc=5",
-      "published": "Thu, 05 Nov 2026 03:58:39 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
@@ -160,15 +160,15 @@
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "ソニーGはエンタメ光る好決算！ JTはロシア事業に暗雲/日経平均急落【今日の注目株＆日本株市場見通し】「デイリーZAi」11月6日号（ダイヤモンド・ザイ） - Yahoo!ニュース",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBeEozcDFEaVY1WjdWRVR4SFlRdjB6WU1qSnJMbXlLUHFOREg2M3BVd29CR2ViU0RMQmVNdEgwUVdfNHAxamEybWZuSVgyTjZCMjdiZl9YYVBGSTV0T3Fldy1RVzN6VXFYSzBzbUJjWlcxWFRuVDQ2TVphMjhjRmc?oc=5",
-      "published": "Fri, 06 Nov 2026 11:10:25 GMT",
+      "title": "国内株式市場見通し：非AI銘柄への資金シフト期待に加え、AI銘柄には短期資金のリバウンド狙いも(フィスコ) - Yahoo!ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSXAzT3VubW9ld0VjYWhLZUltRnlnajB6QWw4Qy16N3UycW5LQXZTb3lkSWF4YTN2dm5FTV9kOUFCdW9haHRXNVdJWjFlWThQWXNyTVVQU1RWSlVjYzQ2TlQwSDR3X1NOWnRsQXI2X3pOMUVFNlpKamtZU19ITzZ4dXJEaG9WbFE?oc=5",
+      "published": "Sat, 07 Nov 2026 05:34:25 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "日経平均は1259円安、企業決算や米経済指標に関心(フィスコ) - Yahoo!ファイナンス",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUk5vSVh5dkF0S3pvS2RDd2c5R0N2TFhyZ0FLYUxpcTFWYWROdjlLenpnNDlUdU52Q0o0cHJLWGhLMkZvYVVVSkxSSktQcTZySjlHY2tXUnFGLWJKYTZ4Sm9WYjFabzhrRk9ScDBYeENoaVJ3VlZab0I1eVdQMGFxX3MxY2R0cVE?oc=5",
-      "published": "Thu, 05 Nov 2026 05:51:36 GMT",
+      "title": "ソニーGはエンタメ光る好決算！ JTはロシア事業に暗雲/日経平均急落【今日の注目株＆日本株市場見通し】「デイリーZAi」11月6日号（ダイヤモンド・ザイ） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBeEozcDFEaVY1WjdWRVR4SFlRdjB6WU1qSnJMbXlLUHFOREg2M3BVd29CR2ViU0RMQmVNdEgwUVdfNHAxamEybWZuSVgyTjZCMjdiZl9YYVBGSTV0T3Fldy1RVzN6VXFYSzBzbUJjWlcxWFRuVDQ2TVphMjhjRmc?oc=5",
+      "published": "Fri, 06 Nov 2026 11:10:25 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
@@ -190,6 +190,12 @@
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
+      "title": "日経平均は1259円安、企業決算や米経済指標に関心(フィスコ) - Yahoo!ファイナンス",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUk5vSVh5dkF0S3pvS2RDd2c5R0N2TFhyZ0FLYUxpcTFWYWROdjlLenpnNDlUdU52Q0o0cHJLWGhLMkZvYVVVSkxSSktQcTZySjlHY2tXUnFGLWJKYTZ4Sm9WYjFabzhrRk9ScDBYeENoaVJ3VlZab0I1eVdQMGFxX3MxY2R0cVE?oc=5",
+      "published": "Thu, 05 Nov 2026 05:51:36 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
       "title": "日本株の転換点は10月末から11月上旬か ハイテク決算・日米MPM・米中間選挙がカタリスト 野村證券ストラテジストが解説 - 野村證券",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83LTJRUHM1TzAzT3VVNEp0MGFwRV9oTVR0bkpyV2RUNHBJMGJoMmcxRDdjNGxGOVlKaDJqRFVwVHV2R1JQS3c2RWNNMTdNamhKYzVXTmhjTzNiZkN4MXlF?oc=5",
       "published": "Thu, 15 Oct 2026 07:00:00 GMT",
@@ -199,12 +205,6 @@
       "title": "日経平均は3552円安、企業決算や米雇用統計に関心(フィスコ) - Yahoo!ファイナンス",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeWEwdzg0QzlKMXBoTEcxYTR3UFE3SkhIYzE5MVNBazVtUTBtWmVYeERLUzNoaVhlNHFKREk0TmpnTHBkVHdfSzZVMjVmREVXeDFkMThKNzB6UWRHNUxvcXMtVEdrenBrZGY1NzdRaGlqVGtwRzRHN3ByOE9NYTJFX3YzMnNURG8?oc=5",
       "published": "Fri, 06 Nov 2026 05:51:43 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
-      "title": "日経平均株価、一時2900円高 米マイクロンの決算を好感 - 日本経済新聞",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE55WF8tTUdseUVtX0Ztb3Bhb3YzWXp3ekk5cWJlbXRHU1ZNRDZwbFJTRUJGYjlSNlZwZ1RmZDNQcDAwTlh1UGVlUTN6bnMxUU1iTXVHZ0loYWpNbE8zU040RWtQazNacGdlR1g4cg?oc=5",
-      "published": "Thu, 25 Jun 2026 07:00:00 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     }
   ],
