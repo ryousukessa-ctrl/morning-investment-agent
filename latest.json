@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22 07:53:03",
+  "generated_at": "2026-11-23 07:55:25",
   "timezone": "Asia/Tokyo",
   "market_as_of": "各銘柄のprice_dateを参照",
   "market_source": "Yahoo Finance via yfinance（非公式・遅延の可能性あり）",
@@ -39,10 +39,10 @@
       "ticker": "JPY=X",
       "name": "米ドル/円",
       "currency": "JPY",
-      "close": 159.707,
-      "previous_close": 159.381,
-      "change_pct": 0.205,
-      "price_date": "2026-11-20",
+      "close": 158.513,
+      "previous_close": 159.707,
+      "change_pct": -0.748,
+      "price_date": "2026-11-22",
       "source": "Yahoo Finance via yfinance"
     },
     {
@@ -118,21 +118,15 @@
   ],
   "news": [
     {
-      "title": "来週（11/24～27）の日経平均株価の予想レンジは、5万3000～6万円！ 11/6の安値も割り込んで自律反発に期待も、明確な“底入れ”まで材料株の物色が中心 - ダイヤモンド・オンライン",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YTm96TE1rTnF5NzVOR0M2cnJMY05ZbGVNUU1ZZzlWNFVHRDJ2WlYwS2ladFhpWlJuTzlNTjhXczRQMjR5VFFUalI4QTUteXBmQUdv?oc=5",
-      "published": "Sat, 21 Nov 2026 20:46:36 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
       "title": "波乱相場で買い好機に？株価堅調な好業績10銘柄 - SBI証券",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QaUVwSEZISWRYWjc3SUNGWjE0Ny0waGpSYzNIZ1B1TjEzWks0amxIeWNyTm9teG1nT1ZhOW1hYUVUbllTelRFaUxDY25zT2ZJRW94V2hnMWk3dlctZjl1dUV6Y1JTd2gyZWxjcllEbWRLdkpPYzhfaHpOaWNPMUE?oc=5",
       "published": "Fri, 20 Nov 2026 00:20:26 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "日本株の先行き 高ベータ株PERの4割ディスカウントは正当化できるか？ 野村證券ストラテジストが解説 - 野村證券",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBUMmRsZnphMmRyNmM2a2VEaGJiWmNXdlpwZW02OXdwX0ZTMGplbWlHVDZNRFBrb0twU0JrUnNHMGQ3a1FNU21CRjZxRi1YTjY3M2FJVWVGUnV2aGJaaWxV?oc=5",
-      "published": "Fri, 20 Nov 2026 06:00:00 GMT",
+      "title": "2026年末の日本株見通しを日経平均株価60,000円に上方修正 総選挙結果と決算を反映 野村證券ストラテジストが解説 - 野村證券",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5oSWU3ZUtYb2J2YW9yMmlwdDNBbFh2RG1jUldFU0FiSW9EYmhxZEdQeGxFS3gwTDZIWFo4THEzSnpRZVZpWlk1ZlpEN21HNFRuMXRubkhGYjJqYzhka0lv?oc=5",
+      "published": "Fri, 20 Nov 2026 08:00:00 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
@@ -142,9 +136,9 @@
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "エヌビディア好決算でも日本株急落、その背景にある市場心理は？ - トウシル",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81VkpqX1ZkSFBxU0k3R3pwX0ZHbDJ2MUhJUEM3dkdYZ2htWkpUcGk1YjVmQTNvYnNHYVZoUXBVbV8wb3QxdjNTenY2ZWhHUUZxaEFFRUhTUVIzQQ?oc=5",
-      "published": "Fri, 20 Nov 2026 07:45:00 GMT",
+      "title": "【激震！エヌビディア危機】決算で示された「業績の安心」と「評価の不安」が同居する姿 失速する株価に振り回される日本のAI関連株、大幅調整進むも見えぬ先行き（マネーポストWEB） - Yahoo!ニュース",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GSDBETWZ6WDAwR05LbFFGZTRVaXNJLVpwRi1qeTZiVVdBZ0k4dWRldmp5VlBzdWo1NU5JZzVOZW41NjFHYTd0OHNhVGFiNFdVUTFEa09rV1Q4cHpObThLMzA2VUJUd1ltNEZra2lwSllUUWdvMVlpSk1PN1VQT0E?oc=5",
+      "published": "Sun, 22 Nov 2026 10:15:00 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
@@ -154,9 +148,15 @@
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "日経平均3000円の急落相場でも､反発期待の好業績3銘柄 - 四季報オンライン",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4tbUg0cFZfcVgtUTR3bWRMVExFWkVTUGM5ZU12TVhuLTdZS0F6OFRWcjliY1hEdHdDZVQ3Um91cThab0Q1RFN3VkItV2I0QWhRSzM0RVlkYw?oc=5",
-      "published": "Fri, 20 Nov 2026 22:00:00 GMT",
+      "title": "エヌビディア好決算でも日本株急落、その背景にある市場心理は？ - トウシル",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81VkpqX1ZkSFBxU0k3R3pwX0ZHbDJ2MUhJUEM3dkdYZ2htWkpUcGk1YjVmQTNvYnNHYVZoUXBVbV8wb3QxdjNTenY2ZWhHUUZxaEFFRUhTUVIzQQ?oc=5",
+      "published": "Fri, 20 Nov 2026 07:45:00 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
+      "title": "日本株の転換点は10月末から11月上旬か ハイテク決算・日米MPM・米中間選挙がカタリスト 野村證券ストラテジストが解説 - 野村證券",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE83LTJRUHM1TzAzT3VVNEp0MGFwRV9oTVR0bkpyV2RUNHBJMGJoMmcxRDdjNGxGOVlKaDJqRFVwVHV2R1JQS3c2RWNNMTdNamhKYzVXTmhjTzNiZkN4MXlF?oc=5",
+      "published": "Fri, 20 Nov 2026 08:00:00 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
@@ -166,33 +166,9 @@
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "日経平均株価、マイクロンショック走るか 25日朝決算 半導体株に打撃の恐れ - IG",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQk0wZnJlVVRKQnR1amNqeFdzeUU4blNJUnExS1JtZHJ3SzJLT1RjcndsTW5sWF9oa002QWRHQmlaRG85cWgzMDk4S2NJTXQ3MWhRSFk1SWN3ampqMzVfMkJwZ0s3U1FqVHlVZnA4SUFhcXd5SUYtcFVMeUY4MWhKMGFqT2tPMV9tYmg4b19ZYzRVeXJTVGxTQzFLR3V2Wm9OTTlMNkNB?oc=5",
-      "published": "Tue, 23 Jun 2026 07:00:00 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
-      "title": "【日本株】2027年NISA注目5銘柄：AI半導体株の次を狙う - トウシル",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRQjFnRjRGODVOakZtWm1nR01qTEQ1enktWVdkeV82N1FhVHJMRFhkYlZ2LTM4c2pBV2xEWmxwcjcxOHlCYzVJak5BT2dUc3lYMVQtM0VmMXVDdw?oc=5",
-      "published": "Fri, 20 Nov 2026 07:30:00 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
-      "title": "20日寄り付き直後の日本株は大幅安､AI懸念が払拭されず - 四季報オンライン",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5fMUxMZVE5MWtjRWRIT2N5LUdwbGpkVFhoWGdOLTJzTXE1WGM2R0V2Q19ENEt6TVJTazdfSWJZdGpzQ2s3ZHB4VTZ6RlQxOVFBcV8wMGZHVQ?oc=5",
-      "published": "Fri, 20 Nov 2026 00:50:00 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
-      "title": "株価の底打ち、わかった頃には手遅れか 10月後半を境に上昇に転じる可能性 野村證券ストラテジストが解説 - 野村證券",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZRW1PSWwxd0ZGbnJnZWRMbXk5TVRiOHRuSl9NZXhjaFFGS01UWkctMHhUbzF5TW9vU1ZJUmVrdkgzOTl3SFp4V3N1NlZBdDRwX2pocGJ3bUI2MF9HRFlN?oc=5",
-      "published": "Fri, 30 Oct 2026 07:00:00 GMT",
-      "source": "Google News RSS（記事の配信元はリンク先で確認）"
-    },
-    {
-      "title": "日経平均、26年末に7万円超え 中間決算で上方修正期待 - 日本経済新聞",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9kVERWcE1qM2Z4QUJqcWVneEtfSnpJUmdGSzltU19XNWtGWkFYRGF5bzgxOWFHSnFrUGxlY3U0dDN3TGtiS0RtR2tLWmdSRS01R3BFUUx6WGxjY09ZR0xHbHYyUnpiR3hkcTU3UUljYnhpc2oxY05vQnZMa29uUQ?oc=5",
-      "published": "Mon, 05 Oct 2026 07:00:00 GMT",
+      "title": "日経平均3000円の急落相場でも､反発期待の好業績3銘柄 - 四季報オンライン",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4tbUg0cFZfcVgtUTR3bWRMVExFWkVTUGM5ZU12TVhuLTdZS0F6OFRWcjliY1hEdHdDZVQ3Um91cThab0Q1RFN3VkItV2I0QWhRSzM0RVlkYw?oc=5",
+      "published": "Fri, 20 Nov 2026 22:00:00 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
@@ -202,9 +178,33 @@
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     },
     {
-      "title": "［動画］日経平均、3,000円超安。エヌビディア決算でも晴れないAI不安 - トウシル",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NUDl3Y295SFV4aDJkRWZTZ1A0WHMtNUowY19uRmhuNHZmTEdOT3hEOGplWWRzdHprZDRLZGhNSllpQUhxcl91cVlLT2RFV1FtTUV1OXlIV3UyZw?oc=5",
-      "published": "Fri, 20 Nov 2026 07:50:00 GMT",
+      "title": "株価の底打ち、わかった頃には手遅れか 10月後半を境に上昇に転じる可能性 野村證券ストラテジストが解説 - 野村證券",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZRW1PSWwxd0ZGbnJnZWRMbXk5TVRiOHRuSl9NZXhjaFFGS01UWkctMHhUbzF5TW9vU1ZJUmVrdkgzOTl3SFp4V3N1NlZBdDRwX2pocGJ3bUI2MF9HRFlN?oc=5",
+      "published": "Fri, 20 Nov 2026 08:00:00 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
+      "title": "日経平均、26年末に7万円超え 中間決算で上方修正期待 - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9kVERWcE1qM2Z4QUJqcWVneEtfSnpJUmdGSzltU19XNWtGWkFYRGF5bzgxOWFHSnFrUGxlY3U0dDN3TGtiS0RtR2tLWmdSRS01R3BFUUx6WGxjY09ZR0xHbHYyUnpiR3hkcTU3UUljYnhpc2oxY05vQnZMa29uUQ?oc=5",
+      "published": "Mon, 05 Oct 2026 07:00:00 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
+      "title": "【日本株】2027年NISA注目5銘柄：AI半導体株の次を狙う - トウシル",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBRQjFnRjRGODVOakZtWm1nR01qTEQ1enktWVdkeV82N1FhVHJMRFhkYlZ2LTM4c2pBV2xEWmxwcjcxOHlCYzVJak5BT2dUc3lYMVQtM0VmMXVDdw?oc=5",
+      "published": "Fri, 20 Nov 2026 07:30:00 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
+      "title": "日経平均株価7万円の短期的な上値余地は？ 「到達度」を3つのポイントでチェック 野村證券・池田雄之輔 - 野村證券",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBaTm9vVVh0SmhoYzNoSzF2dG96TG94d2l2OE1TS042aFFaUW5EbGxabmJKa1lKcDJHUHBac0dEckczNGt4ank2R1pHQTFJV0dvVElHWm5JT01JX21qUE00?oc=5",
+      "published": "Fri, 20 Nov 2026 08:00:00 GMT",
+      "source": "Google News RSS（記事の配信元はリンク先で確認）"
+    },
+    {
+      "title": "日経平均終値320円高、半導体決算の期待高まらず 原油安が下支え - 日本経済新聞",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwVGhmanJVSFpxcnRPcnBPbkVhYkFjd2NZMnlvMncwbmljX1p6VGRseXowckdzRXBqejI3ME5GZGkxUTJENU1sMnVreFdKRy1XRkNOR3lzVlRLaVF3bllIa2NtbXpQWkp0bUI3Tw?oc=5",
+      "published": "Mon, 27 Jul 2026 07:00:00 GMT",
       "source": "Google News RSS（記事の配信元はリンク先で確認）"
     }
   ],
